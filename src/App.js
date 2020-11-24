@@ -69,7 +69,7 @@ class App extends Component {
         </section>
         <section>
           <h2>Contacts</h2>
-          <Filter value={filter} onChange={this.handleFindContact} />
+          {this.state.contacts.length > 1 ? <Filter value={filter} onChange={this.handleFindContact} /> : ""}
           <ContactList visibleContact={visibleContact} handleDelete={this.handleDelete} />
         </section>
       </>
