@@ -1,0 +1,28 @@
+body {
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 400px;
+  border: solid 2px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.button {
+  cursor: pointer;
+  width: 200px;
+  margin-right: auto;
+}
+
+.button:hover {
+  color: white;
+  background-color: green;
+}
